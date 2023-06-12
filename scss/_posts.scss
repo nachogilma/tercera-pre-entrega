@@ -1,0 +1,138 @@
+//posts
+
+.main {
+    background-image: url("../img/FONDO\ PAGINA.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.post {
+    background-color: rgb(255, 255, 255);
+
+    &-article-bg {
+        background-color: rgb(255, 255, 255);
+    }
+
+    &-date > h6 {
+        float: left;
+        color: gray;
+        font-weight: bold;
+    }
+
+    &-info-ul-svg {
+        height: 15px;
+        margin-right: 5px;
+    }
+
+}
+
+#post-info {
+    border-left: 2px solid gray;
+    
+    &> li {
+        list-style-type: none;
+
+        &> a {
+            transition: 1s;
+            color: gray;
+
+            &> :hover {
+                transition: 1s;
+                color: black;
+            }
+    
+
+        }
+
+    }
+
+}
+
+.other-posts{
+    border-bottom: 1px solid gray;
+    padding-top: 15px;
+
+    &-img {
+        width: 70px;
+        height: 70px;
+        border-radius: 35px;
+        background-color: chartreuse;
+        background-image: url("1.jpg");
+        background-size: cover;
+    } 
+
+}
+
+main {
+    background-image: url("/deneme1/img/bg-3.jpg") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Lemonada', Arial, Helvetica, sans-serif; 
+    font-weight: bold;
+}
+
+.post {
+    background-color: rgb(255, 255, 255);
+    
+    &-article-bg {
+        background-color: rgb(255, 255, 255);
+    }
+    
+    &-date > h6 {
+        float: left;
+        color: gray;
+        font-weight: bold;
+    }
+
+    &-info-ul-svg {
+        height: 15px;
+        margin-right: 5px;
+    }
+
+} 
+
+#post-info {
+    border-left: 2px solid gray;
+
+    &> li {
+        list-style-type: none;
+
+        &> a {
+            transition: 1s;
+            color: gray;
+
+            &:hover {
+                transition: 1s;
+                color: black;
+            }
+        }
+
+    }
+
+}
+
+.other-posts{
+    border-bottom: 1px solid gray;
+    padding-top: 15px;
+
+    &-img {
+        width: 70px;
+        height: 70px;
+        border-radius: 35px;
+        background-color: chartreuse;
+        background-image: url("/deneme1/img/1.jpg");
+        background-size: cover;
+    }
+
+}
+
+.row{  
+    justify-content: center;
+}
+
+.texto {
+    color: darkorange;
+}
+

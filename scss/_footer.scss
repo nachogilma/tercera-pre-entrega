@@ -1,0 +1,63 @@
+//foter
+
+.py-5 {
+    background-image: url(../img/FONDO\ PAGINA.JPG);
+    }
+
+.map-bg{
+    background-image: url(../img/FONDO\ PAGINA.JPG);      
+    background-color: #F04D61;
+    }
+
+#map {
+    border: 1px solid lightgray;
+
+    &-iframe {
+        border: 5px solid white !important;
+    }
+    }
+
+    #adress {
+        background-image: url(../img/FONDO\ PAGINA.JPG);   
+        color: white;
+    }
+
+    .footer-copyright {
+        background-image: url(../img/FONDO\ PAGINA.JPG);      
+        background-color: rgb(231, 230, 230);
+        color: #F04D61;
+
+        &> a {
+            color: #F04D61;
+
+            &:hover {
+                color: rgb(255, 230, 0);
+            }
+
+        }
+
+    }
+
+    .footer-bg{
+        background-image: url(../img/FONDO\ PAGINA.JPG);   
+        background-color: #F04D61;
+    }
+
+    .footer-tittle {
+        color: #fff;
+    }
+
+    .footer-subtitle > li {
+        margin-top: 15px;
+
+        &> a {
+            color: white;
+            text-decoration: none;
+
+            &:hover {
+                color: #000;
+            }
+
+        }
+
+    }

@@ -1,0 +1,137 @@
+//mainn
+
+.bg-light {
+    background-image: url(../img/FONDO\ PAGINA.JPG);
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.team {
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+
+    & > img {
+        padding-top: 30px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .team > img {
+        width: 150px;
+    }
+    }
+
+    #intro-bg {
+        background-image: url(../img/FONDO\ PAGINA.JPG);
+        background-size: cover;
+    }
+
+    .jumbotron {
+        background: none !important;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        &1{  
+            color: rgb(255, 255, 255);
+            border: 1px solid #F04D61(255, 0, 0);
+            background-image: url(../img/FONDO\ PAGINA.JPG);
+            background-color: #000000 !important;  
+            border-radius: 10%;
+            
+        }
+        
+    }
+
+    .city-card {
+        border: 5px solid rgb(19, 17, 17) !important;
+    } 
+
+    .quad-card {
+        background-color: #F04D61;
+    }
+
+.circle-card {
+    background-color: #F04D61;
+
+    & > img {
+        width: 100%;
+        height: auto;
+        background-image: url(../img/Local\ de\ la\ hamburgueseria.jpg);
+        opacity: 1;
+        transition: 1s;
+
+        & :hover {
+            background-image: url(../img/Local\ de\ la\ hamburgueseria.jpg);
+            transition: 1s;
+        opacity: 0.7;
+        }
+    }
+}
+
+.aaa {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+
+    & video {
+        position: absolute;
+        background-image: url(../img/FONDO\ PAGINA.JPG);
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: 0;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+    }
+    .container {
+        position: relative;
+        z-index: 2;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: #4d4c4c;
+        opacity: 0.7;
+        z-index: 1;
+    }
+}
+
+.overlay2 {
+    opacity: 0.3 !important;
+    background-color: rgb(255, 255, 255) !important;
+}
+
+
+.contact-header-input{
+    height: 50px !important;
+    border-bottom-right-radius: 50px !important;
+    border-top-right-radius: 50px !important;
+}
+
+.contact-header-button {
+    border-top-left-radius: 50px !important;
+    border-bottom-left-radius: 50px !important;
+    }

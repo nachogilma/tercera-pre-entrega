@@ -1,0 +1,107 @@
+
+//Blog
+
+body {
+    background-image: url(../img/FONDO\ PAGINA.JPG)   
+}
+
+.first-posts {
+    background-image: url(../img/FONDO\ PAGINA.JPG);
+}
+
+h1 {
+    color: yellow;
+    padding: 10px 0;
+}
+
+.pond {
+    color: #F04D61;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border: none;
+
+    &:hover {
+        box-shadow: 0 16px 16px 10px rgba(0, 0, 0, 0.4);
+        transform: scale(1.085);
+        z-index: 10;
+    }
+    
+    &> a {
+        color: rgb(0, 0, 0) !important;
+
+        :hover {
+            text-decoration: none !important;
+        }
+
+    }
+
+}
+
+.text-muted i {
+    margin: 0 10px;
+}
+
+.first-posts {
+    background-color: white;
+}
+
+.first-img {
+    justify-content: space-around;
+    background-color: #F04D61;
+    opacity: 1.0;
+    overflow: hidden;
+    position: relative;
+    width: 350px;
+
+    &:hover {
+        transition: 1s;
+        opacity: 1;
+        transform: scale(1.085);
+    }
+
+}
+
+.fotos {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.pond {
+    justify-content: flex-end;
+}
+
+#footer-logo > h3 {
+    color: #F04D61 !important;
+}
+
+.footer-tittle > h5 {
+    color: #F04D61;
+}
+
+.footer-subtitle > li > a  {
+    color: #F04D61 !important;
+
+    &:hover {
+        color: black !important;
+    }
+
+}
+
+.footer-copyright {
+    color: white;
+    background-color: #F04D61;
+
+    &> a {
+        color: white;
+
+        &:hover {
+            color: black;
+        }
+
+    }
+
+}
