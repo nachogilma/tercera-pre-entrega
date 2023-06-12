@@ -93,7 +93,7 @@ header {
   }
 }
 #intro-bg {
-  background-image: url(../img/FONDO\ PAGINA.JPG);
+  /*background-image: url(../img/FONDO\ PAGINA.JPG);*/
   background-size: cover;
 }
 
@@ -104,7 +104,7 @@ header {
 .jumbotron1 {
   color: rgb(255, 255, 255);
   border: 1px solid #F04D61 255, 0, 0;
-  background-image: url(../img/FONDO\ PAGINA.JPG);
+  /*background-image: url(../img/FONDO\ PAGINA.JPG);*/
   background-color: #000000 !important;
   border-radius: 10%;
 }
@@ -123,12 +123,12 @@ header {
 .circle-card > img {
   width: 100%;
   height: auto;
-  background-image: url(../img/Local\ de\ la\ hamburgueseria.jpg);
+  /*background-image: url(../img/Local\ de\ la\ hamburgueseria.jpg);*/
   opacity: 1;
   transition: 1s;
 }
 .circle-card > img :hover {
-  background-image: url(../img/Local\ de\ la\ hamburgueseria.jpg);
+  /*background-image: url(../img/Local\ de\ la\ hamburgueseria.jpg);*/
   transition: 1s;
   opacity: 0.7;
 }
@@ -143,7 +143,7 @@ header {
 }
 .aaa video {
   position: absolute;
-  background-image: url(../img/FONDO\ PAGINA.JPG);
+  /*background-image: url(../img/FONDO\ PAGINA.JPG);*/
   top: 50%;
   left: 50%;
   min-width: 100%;
@@ -189,13 +189,13 @@ header {
 
 #contact-form {
   background-image: url(../img/FONDO\ PAGINA.JPG);
-  background-color: #F04D61;
+  background-color: #000000;
 }
 
 .contact-form {
   width: 95% !important;
   border: 2px solid lightgray;
-  background-image: url(../img/FONDO\ PAGINA.JPG);
+  /*background-image: url(../img/FONDO\ PAGINA.JPG);*/
   background-color: #fff;
 }
 
@@ -393,7 +393,7 @@ header {
 }
 
 main {
-  background-image: url("/deneme1/img/bg-3.jpg") !important;
+  /*background-image: url("/deneme1/img/bg-3.jpg") !important;*/
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
