@@ -1,0 +1,63 @@
+//contact form
+
+#contact-form {
+    background-image: url(../img/FONDO\ PAGINA.JPG);   
+    background-color: #000000;
+}
+
+.contact-form{
+    width: 95% !important;
+    border: 2px solid lightgray;
+    /*background-image: url(../img/FONDO\ PAGINA.JPG);*/   
+    background-color: #fff;
+    }
+
+.contact-area{
+    height: 350px !important;
+    }
+
+.contact-col > h1 , p {
+    text-align: center;
+    }
+
+    .contact-area{
+        height: 350px !important;
+    }
+    .contact-col > h1 , p {
+        text-align: center;
+    }
+
+    #contact-button {
+        border: 1px solid #F04D61;
+        color: #F04D61;
+
+        &:hover {
+            background-color: #F04D61;
+            color: white;
+        }
+    }   
+
+
+ /*
+#contact-form {
+	background-color: #F04D61;
+}
+.contact-form {
+	border: 2px solid lightgray;
+	background-color: #fff;
+}
+.contact-area {
+	height: 350px;
+}
+.contact-col > h1, p {
+	text-align: center;
+}
+#contact-button {
+	border: 1px solid #F04D61;
+	color: #F04D61;
+	&:hover {
+		background-color: #F04D61;
+		color: white;
+	}
+}
+*/
